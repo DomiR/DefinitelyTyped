@@ -531,6 +531,11 @@ declare namespace SocketIOClient {
 		agent?: string|boolean;
 
 		/**
+		 * Debug socket io
+		 */
+		debug: boolean;
+
+		/**
 		 * Whether the client should try to upgrade the transport from
 		 * long-polling to something better.
 		 * @default true
